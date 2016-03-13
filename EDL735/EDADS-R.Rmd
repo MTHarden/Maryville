@@ -2,7 +2,7 @@
 title: "Exploratory Data Analysis and Descriptive Statistics with R"
 author: "Mitch Harden"
 date: "March 12, 2016"
-output: pdf_document
+output: html_document
 ---
 
 Analysis and Report were generated using `r R.Version()$version.string` and KNITR via RStudio. 
@@ -16,7 +16,7 @@ library(moments)
 
 Data acquired from source, uncompressed, and read into R:
 ```{r}
-setwd("~/")
+setwd("~/Maryville/EDL735")
 download.file("http://spss5.allenandunwin.com.s3-website-ap-southeast-2.amazonaws.com/Files/sleep5ED.zip",dest="sleep5ED.zip", mode="wb")
 unzip("sleep5ED.zip")
 sleep5ed = read.spss("sleep5ED/sleep5ED.sav", to.data.frame=TRUE)
