@@ -2,7 +2,7 @@
 title: "Exploratory Data Analysis and Descriptive Statistics with R"
 author: "Mitch Harden"
 date: "March 12, 2016"
-output: html_document
+output: pdf_document
 ---
 
 Analysis and Report were generated using `r R.Version()$version.string` and KNITR via RStudio. 
